@@ -1,6 +1,6 @@
 .swiper {
 	position: absolute;
-	top: 100px;
+	top: 120px;
 	left: 75px;
 	width: 92%;
 	height: 620px;
@@ -91,9 +91,8 @@
 		width: 90%;
 		height: 670px;
 	}
-
-	.swiper-slide-1 {
-		background-image: url('../img/first_project_photo_1024.jpg');
+	.swiper-slide {
+		background-position: center;
 	}
 }
 
@@ -104,10 +103,6 @@
 		width: 87%;
 		height: 660px;
 	}
-
-	.swiper-slide-1 {
-		background-image: url('../img/first_project_photo_768.jpg');
-	}
 }
 
 @media (max-width: 540px) {
@@ -116,10 +111,6 @@
 		left: 16px;
 		width: 94%;
 		height: 661px;
-	}
-
-	.swiper-slide-1 {
-		background-image: url('../img/first_project_photo_768.jpg');
 	}
 }
 
@@ -130,10 +121,6 @@
 		min-width: 270px;
 		width: 91%;
 		height: 306px;
-	}
-
-	.swiper-slide-1 {
-		background-image: url('../img/first_project_photo_320.jpg');
 	}
 
 	.swiper-pagination {
